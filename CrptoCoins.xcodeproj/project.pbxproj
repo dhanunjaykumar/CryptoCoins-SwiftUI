@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		516D695D2B6E8000008FD1B3 /* CrptoCoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D695C2B6E8000008FD1B3 /* CrptoCoinsApp.swift */; };
-		516D695F2B6E8000008FD1B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D695E2B6E8000008FD1B3 /* ContentView.swift */; };
+		516D695F2B6E8000008FD1B3 /* CryptoCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D695E2B6E8000008FD1B3 /* CryptoCoinsView.swift */; };
 		516D69612B6E8001008FD1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516D69602B6E8001008FD1B3 /* Assets.xcassets */; };
 		516D69642B6E8001008FD1B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516D69632B6E8001008FD1B3 /* Preview Assets.xcassets */; };
 		516D696E2B6E8001008FD1B3 /* CrptoCoinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D696D2B6E8001008FD1B3 /* CrptoCoinsTests.swift */; };
 		516D69782B6E8001008FD1B3 /* CrptoCoinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D69772B6E8001008FD1B3 /* CrptoCoinsUITests.swift */; };
 		516D697A2B6E8001008FD1B3 /* CrptoCoinsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D69792B6E8001008FD1B3 /* CrptoCoinsUITestsLaunchTests.swift */; };
+		516D69872B6EC5EA008FD1B3 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D69862B6EC5EA008FD1B3 /* CoinViewModel.swift */; };
+		516D69892B6EC7D5008FD1B3 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D69882B6EC7D5008FD1B3 /* CoinView.swift */; };
+		516D698B2B6EC85C008FD1B3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D698A2B6EC85C008FD1B3 /* NetworkManager.swift */; };
+		516D698D2B6EC890008FD1B3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D698C2B6EC890008FD1B3 /* Model.swift */; };
+		516D698F2B6EC9A8008FD1B3 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D698E2B6EC9A8008FD1B3 /* CryptoViewModel.swift */; };
+		51970C4A2B6F9043000881B4 /* TagsListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51970C492B6F9043000881B4 /* TagsListingView.swift */; };
+		51970C4C2B6F9427000881B4 /* TagLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51970C4B2B6F9427000881B4 /* TagLayout.swift */; };
+		51970C4E2B6FC9FE000881B4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51970C4D2B6FC9FE000881B4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		516D69592B6E8000008FD1B3 /* CrptoCoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrptoCoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516D695C2B6E8000008FD1B3 /* CrptoCoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrptoCoinsApp.swift; sourceTree = "<group>"; };
-		516D695E2B6E8000008FD1B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		516D695E2B6E8000008FD1B3 /* CryptoCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinsView.swift; sourceTree = "<group>"; };
 		516D69602B6E8001008FD1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516D69632B6E8001008FD1B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		516D69692B6E8001008FD1B3 /* CrptoCoinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrptoCoinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,14 @@
 		516D69732B6E8001008FD1B3 /* CrptoCoinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrptoCoinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		516D69772B6E8001008FD1B3 /* CrptoCoinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrptoCoinsUITests.swift; sourceTree = "<group>"; };
 		516D69792B6E8001008FD1B3 /* CrptoCoinsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrptoCoinsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		516D69862B6EC5EA008FD1B3 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		516D69882B6EC7D5008FD1B3 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
+		516D698A2B6EC85C008FD1B3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		516D698C2B6EC890008FD1B3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		516D698E2B6EC9A8008FD1B3 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		51970C492B6F9043000881B4 /* TagsListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsListingView.swift; sourceTree = "<group>"; };
+		51970C4B2B6F9427000881B4 /* TagLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayout.swift; sourceTree = "<group>"; };
+		51970C4D2B6FC9FE000881B4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +111,13 @@
 			isa = PBXGroup;
 			children = (
 				516D695C2B6E8000008FD1B3 /* CrptoCoinsApp.swift */,
-				516D695E2B6E8000008FD1B3 /* ContentView.swift */,
+				516D695E2B6E8000008FD1B3 /* CryptoCoinsView.swift */,
+				516D698E2B6EC9A8008FD1B3 /* CryptoViewModel.swift */,
+				51970C502B6FD386000881B4 /* TagsView */,
+				51970C4F2B6FD374000881B4 /* Coin */,
+				516D698A2B6EC85C008FD1B3 /* NetworkManager.swift */,
+				516D698C2B6EC890008FD1B3 /* Model.swift */,
+				51970C4D2B6FC9FE000881B4 /* Extensions.swift */,
 				516D69602B6E8001008FD1B3 /* Assets.xcassets */,
 				516D69622B6E8001008FD1B3 /* Preview Content */,
 			);
@@ -125,6 +147,24 @@
 				516D69792B6E8001008FD1B3 /* CrptoCoinsUITestsLaunchTests.swift */,
 			);
 			path = CrptoCoinsUITests;
+			sourceTree = "<group>";
+		};
+		51970C4F2B6FD374000881B4 /* Coin */ = {
+			isa = PBXGroup;
+			children = (
+				516D69862B6EC5EA008FD1B3 /* CoinViewModel.swift */,
+				516D69882B6EC7D5008FD1B3 /* CoinView.swift */,
+			);
+			path = Coin;
+			sourceTree = "<group>";
+		};
+		51970C502B6FD386000881B4 /* TagsView */ = {
+			isa = PBXGroup;
+			children = (
+				51970C4B2B6F9427000881B4 /* TagLayout.swift */,
+				51970C492B6F9043000881B4 /* TagsListingView.swift */,
+			);
+			path = TagsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516D695F2B6E8000008FD1B3 /* ContentView.swift in Sources */,
+				516D695F2B6E8000008FD1B3 /* CryptoCoinsView.swift in Sources */,
+				516D69892B6EC7D5008FD1B3 /* CoinView.swift in Sources */,
+				516D698B2B6EC85C008FD1B3 /* NetworkManager.swift in Sources */,
+				516D698F2B6EC9A8008FD1B3 /* CryptoViewModel.swift in Sources */,
+				51970C4A2B6F9043000881B4 /* TagsListingView.swift in Sources */,
+				516D698D2B6EC890008FD1B3 /* Model.swift in Sources */,
 				516D695D2B6E8000008FD1B3 /* CrptoCoinsApp.swift in Sources */,
+				51970C4E2B6FC9FE000881B4 /* Extensions.swift in Sources */,
+				51970C4C2B6F9427000881B4 /* TagLayout.swift in Sources */,
+				516D69872B6EC5EA008FD1B3 /* CoinViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
