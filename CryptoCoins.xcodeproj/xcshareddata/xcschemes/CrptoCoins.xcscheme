@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "516D69582B6E8000008FD1B3"
-               BuildableName = "CrptoCoins.app"
-               BlueprintName = "CrptoCoins"
-               ReferencedContainer = "container:CrptoCoins.xcodeproj">
+               BuildableName = "CryptoCoins.app"
+               BlueprintName = "CryptoCoins"
+               ReferencedContainer = "container:CryptoCoins.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "516D69682B6E8001008FD1B3"
-               BuildableName = "CrptoCoinsTests.xctest"
-               BlueprintName = "CrptoCoinsTests"
-               ReferencedContainer = "container:CrptoCoins.xcodeproj">
+               BuildableName = "CryptoCoinsTests.xctest"
+               BlueprintName = "CryptoCoinsTests"
+               ReferencedContainer = "container:CryptoCoins.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "516D69722B6E8001008FD1B3"
-               BuildableName = "CrptoCoinsUITests.xctest"
-               BlueprintName = "CrptoCoinsUITests"
-               ReferencedContainer = "container:CrptoCoins.xcodeproj">
+               BuildableName = "CryptoCoinsUITests.xctest"
+               BlueprintName = "CryptoCoinsUITests"
+               ReferencedContainer = "container:CryptoCoins.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "516D69582B6E8000008FD1B3"
-            BuildableName = "CrptoCoins.app"
-            BlueprintName = "CrptoCoins"
-            ReferencedContainer = "container:CrptoCoins.xcodeproj">
+            BuildableName = "CryptoCoins.app"
+            BlueprintName = "CryptoCoins"
+            ReferencedContainer = "container:CryptoCoins.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "516D69582B6E8000008FD1B3"
-            BuildableName = "CrptoCoins.app"
-            BlueprintName = "CrptoCoins"
-            ReferencedContainer = "container:CrptoCoins.xcodeproj">
+            BuildableName = "CryptoCoins.app"
+            BlueprintName = "CryptoCoins"
+            ReferencedContainer = "container:CryptoCoins.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

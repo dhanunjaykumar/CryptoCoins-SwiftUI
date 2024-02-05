@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		516D695D2B6E8000008FD1B3 /* CrptoCoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D695C2B6E8000008FD1B3 /* CrptoCoinsApp.swift */; };
+		516D695D2B6E8000008FD1B3 /* CryptoCoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D695C2B6E8000008FD1B3 /* CryptoCoinsApp.swift */; };
 		516D695F2B6E8000008FD1B3 /* CryptoCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D695E2B6E8000008FD1B3 /* CryptoCoinsView.swift */; };
 		516D69612B6E8001008FD1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516D69602B6E8001008FD1B3 /* Assets.xcassets */; };
 		516D69642B6E8001008FD1B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516D69632B6E8001008FD1B3 /* Preview Assets.xcassets */; };
@@ -42,14 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		516D69592B6E8000008FD1B3 /* CrptoCoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrptoCoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		516D695C2B6E8000008FD1B3 /* CrptoCoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrptoCoinsApp.swift; sourceTree = "<group>"; };
+		516D69592B6E8000008FD1B3 /* CryptoCoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516D695C2B6E8000008FD1B3 /* CryptoCoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinsApp.swift; sourceTree = "<group>"; };
 		516D695E2B6E8000008FD1B3 /* CryptoCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinsView.swift; sourceTree = "<group>"; };
 		516D69602B6E8001008FD1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516D69632B6E8001008FD1B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		516D69692B6E8001008FD1B3 /* CrptoCoinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrptoCoinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516D69692B6E8001008FD1B3 /* CryptoCoinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCoinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		516D696D2B6E8001008FD1B3 /* CrptoCoinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrptoCoinsTests.swift; sourceTree = "<group>"; };
-		516D69732B6E8001008FD1B3 /* CrptoCoinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrptoCoinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516D69732B6E8001008FD1B3 /* CryptoCoinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCoinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		516D69772B6E8001008FD1B3 /* CrptoCoinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrptoCoinsUITests.swift; sourceTree = "<group>"; };
 		516D69792B6E8001008FD1B3 /* CrptoCoinsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrptoCoinsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		516D69862B6EC5EA008FD1B3 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
@@ -100,9 +100,9 @@
 		516D695A2B6E8000008FD1B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				516D69592B6E8000008FD1B3 /* CrptoCoins.app */,
-				516D69692B6E8001008FD1B3 /* CrptoCoinsTests.xctest */,
-				516D69732B6E8001008FD1B3 /* CrptoCoinsUITests.xctest */,
+				516D69592B6E8000008FD1B3 /* CryptoCoins.app */,
+				516D69692B6E8001008FD1B3 /* CryptoCoinsTests.xctest */,
+				516D69732B6E8001008FD1B3 /* CryptoCoinsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 		516D695B2B6E8000008FD1B3 /* CrptoCoins */ = {
 			isa = PBXGroup;
 			children = (
-				516D695C2B6E8000008FD1B3 /* CrptoCoinsApp.swift */,
+				516D695C2B6E8000008FD1B3 /* CryptoCoinsApp.swift */,
 				516D695E2B6E8000008FD1B3 /* CryptoCoinsView.swift */,
 				516D698E2B6EC9A8008FD1B3 /* CryptoViewModel.swift */,
 				51970C502B6FD386000881B4 /* TagsView */,
@@ -170,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		516D69582B6E8000008FD1B3 /* CrptoCoins */ = {
+		516D69582B6E8000008FD1B3 /* CryptoCoins */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 516D697D2B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CrptoCoins" */;
+			buildConfigurationList = 516D697D2B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CryptoCoins" */;
 			buildPhases = (
 				516D69552B6E8000008FD1B3 /* Sources */,
 				516D69562B6E8000008FD1B3 /* Frameworks */,
@@ -182,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = CrptoCoins;
+			name = CryptoCoins;
 			productName = CrptoCoins;
-			productReference = 516D69592B6E8000008FD1B3 /* CrptoCoins.app */;
+			productReference = 516D69592B6E8000008FD1B3 /* CryptoCoins.app */;
 			productType = "com.apple.product-type.application";
 		};
-		516D69682B6E8001008FD1B3 /* CrptoCoinsTests */ = {
+		516D69682B6E8001008FD1B3 /* CryptoCoinsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 516D69802B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CrptoCoinsTests" */;
+			buildConfigurationList = 516D69802B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CryptoCoinsTests" */;
 			buildPhases = (
 				516D69652B6E8001008FD1B3 /* Sources */,
 				516D69662B6E8001008FD1B3 /* Frameworks */,
@@ -200,14 +200,14 @@
 			dependencies = (
 				516D696B2B6E8001008FD1B3 /* PBXTargetDependency */,
 			);
-			name = CrptoCoinsTests;
+			name = CryptoCoinsTests;
 			productName = CrptoCoinsTests;
-			productReference = 516D69692B6E8001008FD1B3 /* CrptoCoinsTests.xctest */;
+			productReference = 516D69692B6E8001008FD1B3 /* CryptoCoinsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		516D69722B6E8001008FD1B3 /* CrptoCoinsUITests */ = {
+		516D69722B6E8001008FD1B3 /* CryptoCoinsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 516D69832B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CrptoCoinsUITests" */;
+			buildConfigurationList = 516D69832B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CryptoCoinsUITests" */;
 			buildPhases = (
 				516D696F2B6E8001008FD1B3 /* Sources */,
 				516D69702B6E8001008FD1B3 /* Frameworks */,
@@ -218,9 +218,9 @@
 			dependencies = (
 				516D69752B6E8001008FD1B3 /* PBXTargetDependency */,
 			);
-			name = CrptoCoinsUITests;
+			name = CryptoCoinsUITests;
 			productName = CrptoCoinsUITests;
-			productReference = 516D69732B6E8001008FD1B3 /* CrptoCoinsUITests.xctest */;
+			productReference = 516D69732B6E8001008FD1B3 /* CryptoCoinsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -246,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 516D69542B6E8000008FD1B3 /* Build configuration list for PBXProject "CrptoCoins" */;
+			buildConfigurationList = 516D69542B6E8000008FD1B3 /* Build configuration list for PBXProject "CryptoCoins" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,9 +259,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				516D69582B6E8000008FD1B3 /* CrptoCoins */,
-				516D69682B6E8001008FD1B3 /* CrptoCoinsTests */,
-				516D69722B6E8001008FD1B3 /* CrptoCoinsUITests */,
+				516D69582B6E8000008FD1B3 /* CryptoCoins */,
+				516D69682B6E8001008FD1B3 /* CryptoCoinsTests */,
+				516D69722B6E8001008FD1B3 /* CryptoCoinsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +303,7 @@
 				516D698F2B6EC9A8008FD1B3 /* CryptoViewModel.swift in Sources */,
 				51970C4A2B6F9043000881B4 /* TagsListingView.swift in Sources */,
 				516D698D2B6EC890008FD1B3 /* Model.swift in Sources */,
-				516D695D2B6E8000008FD1B3 /* CrptoCoinsApp.swift in Sources */,
+				516D695D2B6E8000008FD1B3 /* CryptoCoinsApp.swift in Sources */,
 				51970C4E2B6FC9FE000881B4 /* Extensions.swift in Sources */,
 				51970C4C2B6F9427000881B4 /* TagLayout.swift in Sources */,
 				516D69872B6EC5EA008FD1B3 /* CoinViewModel.swift in Sources */,
@@ -332,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		516D696B2B6E8001008FD1B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 516D69582B6E8000008FD1B3 /* CrptoCoins */;
+			target = 516D69582B6E8000008FD1B3 /* CryptoCoins */;
 			targetProxy = 516D696A2B6E8001008FD1B3 /* PBXContainerItemProxy */;
 		};
 		516D69752B6E8001008FD1B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 516D69582B6E8000008FD1B3 /* CrptoCoins */;
+			target = 516D69582B6E8000008FD1B3 /* CryptoCoins */;
 			targetProxy = 516D69742B6E8001008FD1B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -533,7 +533,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrptoCoins.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrptoCoins";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCoins.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCoins";
 			};
 			name = Debug;
 		};
@@ -552,7 +552,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrptoCoins.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrptoCoins";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCoins.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCoins";
 			};
 			name = Release;
 		};
@@ -593,7 +593,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		516D69542B6E8000008FD1B3 /* Build configuration list for PBXProject "CrptoCoins" */ = {
+		516D69542B6E8000008FD1B3 /* Build configuration list for PBXProject "CryptoCoins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				516D697B2B6E8001008FD1B3 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		516D697D2B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CrptoCoins" */ = {
+		516D697D2B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CryptoCoins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				516D697E2B6E8001008FD1B3 /* Debug */,
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		516D69802B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CrptoCoinsTests" */ = {
+		516D69802B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CryptoCoinsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				516D69812B6E8001008FD1B3 /* Debug */,
@@ -620,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		516D69832B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CrptoCoinsUITests" */ = {
+		516D69832B6E8001008FD1B3 /* Build configuration list for PBXNativeTarget "CryptoCoinsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				516D69842B6E8001008FD1B3 /* Debug */,

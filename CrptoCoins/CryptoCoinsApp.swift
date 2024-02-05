@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CrptoCoinsApp: App {
+struct CryptoCoinsApp: App {
     var body: some Scene {
         WindowGroup {
             CryptoCoinsView()
